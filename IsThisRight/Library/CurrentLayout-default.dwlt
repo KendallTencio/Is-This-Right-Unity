@@ -716,19 +716,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Music
+    - Assets/SoundEffects
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Music
+  - Assets/SoundEffects
   m_LastFoldersGridSize: 54
   m_LastProjectPath: C:\TEC\VI Semestre\CursoJuegos\SegundoJuegoGrupal\isthisright\IsThisRight
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e6380000
-    m_LastClickedID: 14566
+    m_SelectedIDs: ea380000
+    m_LastClickedID: 14570
     m_ExpandedIDs: 00000000e038000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
