@@ -9,26 +9,35 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 40f;
     bool jump = false;
     bool crouch = false;
-     // Update is called once per frame
+
+    public bool canMove = true;
+
     void Update()
     {
-       horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed; //-1..1, iz..der
-        if (Input.GetButtonDown("Jump"))
-        {
-            jump = true;
-        }
+        if (canMove){
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed; //-1..1, iz..der
+            if (Input.GetButtonDown("Jump"))
+            {
+                jump = true;
+            }
 
-        if (Input.GetButtonDown("Crouch"))
-        {
-            crouch = true;
-        }else if (Input.GetButtonUp("Crouch")) { 
-         crouch = false;
+            if (Input.GetButtonDown("Crouch"))
+            {
+                crouch = true;
+            }
+            else if (Input.GetButtonUp("Crouch"))
+            {
+                crouch = false;
+            }
         }
     }
+
     private void FixedUpdate()
     {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        jump = false;
-
+        if (canMove)
+        {
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+            jump = false;
+        }
     }
 }
