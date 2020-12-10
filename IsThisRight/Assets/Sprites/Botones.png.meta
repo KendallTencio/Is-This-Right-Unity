@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: a81ce90839cb52944a78e201499a0416
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 846010472778899471
+    second: Red_unpressed
+  - first:
+      213: 547216540781403935
+    second: Red_pressed
+  - first:
+      213: -7907714960023122294
+    second: GKey_unpressed
+  - first:
+      213: 2194205617919688114
+    second: GKey_pressed
+  - first:
+      213: 3866776094012965585
+    second: Green_upressed
+  - first:
+      213: 9016308295934094931
+    second: Green_pressed
+  - first:
+      213: 7301679003791084372
+    second: BKey_unpressed
+  - first:
+      213: -3221787626081240748
+    second: BKey_pressed
+  - first:
+      213: -2944057905185219022
+    second: GKey_e_unpressed
+  - first:
+      213: 9151408025736124242
+    second: GKey_e_pressed
+  - first:
+      213: 2628266660422124692
+    second: Blue_unpressed
+  - first:
+      213: -5103995100000811410
+    second: Blue_pressed
+  - first:
+      213: -7906282856345735761
+    second: BKey_e_unpressed
+  - first:
+      213: -3233077987633186347
+    second: BKey_e_pressed
+  - first:
+      213: 145221563761522382
+    second: GKey_q_unpressed
+  - first:
+      213: 450208034708987900
+    second: GKey_q_pressed
+  - first:
+      213: -602283821619953447
+    second: Yellow_unpressed
+  - first:
+      213: 6453210398658690557
+    second: Yellow_Pressed
+  - first:
+      213: -6361220910365627870
+    second: BKey_q_unpressed
+  - first:
+      213: 8457651401061830260
+    second: BKey_q_pressed
+  - first:
+      213: 7738933089368799925
+    second: Red_unpressed
+  - first:
+      213: 2680872440378829001
+    second: Red_pressed
+  - first:
+      213: -3273270062251633807
+    second: GKey_unpressed
+  - first:
+      213: -4780711676549160045
+    second: GKey_pressed
+  - first:
+      213: -1570327674817026508
+    second: Green_upressed
+  - first:
+      213: -5242157093477563857
+    second: Green_pressed
+  - first:
+      213: 2452791338479533259
+    second: BKey_unpressed
+  - first:
+      213: -6068244084571977272
+    second: BKey_pressed
+  - first:
+      213: -6459389775110643435
+    second: GKey_e_unpressed
+  - first:
+      213: 6817667334089316971
+    second: GKey_e_pressed
+  - first:
+      213: -4415500690541924208
+    second: Blue_unpressed
+  - first:
+      213: -7958408579639373864
+    second: Blue_pressed
+  - first:
+      213: 7819397869433466524
+    second: BKey_e_unpressed
+  - first:
+      213: 7435462140779002835
+    second: BKey_e_pressed
+  - first:
+      213: -6485926168120334308
+    second: GKey_q_unpressed
+  - first:
+      213: -5069810199030073617
+    second: GKey_q_pressed
+  - first:
+      213: 5301782978612611639
+    second: Yellow_unpressed
+  - first:
+      213: -4667465844970196076
+    second: Yellow_Pressed
+  - first:
+      213: 7608468309243848199
+    second: BKey_q_unpressed
+  - first:
+      213: 895896105994596473
+    second: BKey_q_pressed
+  - first:
+      213: 7738933089368799925
+    second: red_button_unpressed
+  - first:
+      213: 2680872440378829001
+    second: red_button_pressed
+  - first:
+      213: -3273270062251633807
+    second: gray_kbutton_uppressed
+  - first:
+      213: -4780711676549160045
+    second: gray_kbutton_pressed
+  - first:
+      213: -1570327674817026508
+    second: green_button_unpressed
+  - first:
+      213: -5242157093477563857
+    second: green_button_pressed
+  - first:
+      213: 2452791338479533259
+    second: black_kbutton_unpressed
+  - first:
+      213: -6068244084571977272
+    second: black_kbutton_pressed
+  - first:
+      213: -6459389775110643435
+    second: gray_e_button_unpressed
+  - first:
+      213: 6817667334089316971
+    second: gray_e_button_pressed
+  - first:
+      213: -4415500690541924208
+    second: blue_button_unpressed
+  - first:
+      213: -7958408579639373864
+    second: blue_button_pressed
+  - first:
+      213: 7819397869433466524
+    second: black_e_button_unpressed
+  - first:
+      213: 7435462140779002835
+    second: black_e_button_pressed
+  - first:
+      213: -6485926168120334308
+    second: gray_q_button_unpressed
+  - first:
+      213: -5069810199030073617
+    second: gray_q_button_pressed
+  - first:
+      213: 5301782978612611639
+    second: yellow_button_unpressed
+  - first:
+      213: -4667465844970196076
+    second: Yellow_button_pressed
+  - first:
+      213: 7608468309243848199
+    second: black_q_button_unpressed
+  - first:
+      213: 895896105994596473
+    second: black_q_button_pressed
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 7, y: 7, z: 1, w: 2}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 78
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baf75464a6366b60800000000000000
+      internalID: 7738933089368799925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c82ae8d74f543520800000000000000
+      internalID: 2680872440378829001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray_kbutton_uppressed
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 85
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173129d88320392d0800000000000000
+      internalID: -3273270062251633807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray_kbutton_pressed
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 85
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393a9b93f0087adb0800000000000000
+      internalID: -4780711676549160045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 55
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436e099bc43153ae0800000000000000
+      internalID: -1570327674817026508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 56
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22c97ac5ed1047b0800000000000000
+      internalID: -5242157093477563857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_kbutton_unpressed
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 70
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3a361ab01a0220800000000000000
+      internalID: 2452791338479533259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_kbutton_pressed
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 70
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9c8b0f72449cba0800000000000000
+      internalID: -6068244084571977272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray_e_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 56
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5116dbc0933ab56a0800000000000000
+      internalID: -6459389775110643435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray_e_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 56
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a9d2d91583d9e50800000000000000
+      internalID: 6817667334089316971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b1ca248df8b2c0800000000000000
+      internalID: -4415500690541924208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 33
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df8c21ff8d0e8190800000000000000
+      internalID: -7958408579639373864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_e_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 41
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e270deee4148c60800000000000000
+      internalID: 7819397869433466524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_e_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 41
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db7ff91c61103760800000000000000
+      internalID: 7435462140779002835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray_q_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 27
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18e6c5938c5df5a0800000000000000
+      internalID: -6485926168120334308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray_q_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 27
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6f8282c7a64a9b0800000000000000
+      internalID: -5069810199030073617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aca6c6787b39940800000000000000
+      internalID: 5301782978612611639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 10
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49378451b84d93fb0800000000000000
+      internalID: -4667465844970196076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_q_button_unpressed
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 12
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706eb49ad95b69960800000000000000
+      internalID: 7608468309243848199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_q_button_pressed
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 12
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970b67103ccde6c00800000000000000
+      internalID: 895896105994596473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
