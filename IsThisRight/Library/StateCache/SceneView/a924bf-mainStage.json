@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":7.457981109619141,"y":-4.483687877655029,"z":-1.0395094156265259},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1.4929856061935425,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":23.757051467895509,"y":-9.89200496673584,"z":-12.107550621032715},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1.5578707456588746,"orthographic":true}
+>>>>>>> Sebas
