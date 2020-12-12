@@ -175,10 +175,10 @@ GameObject:
   m_Component:
   - component: {fileID: 57385661}
   - component: {fileID: 57385660}
-  - component: {fileID: 57385664}
   - component: {fileID: 57385659}
   - component: {fileID: 57385663}
   - component: {fileID: 57385662}
+  - component: {fileID: 57385664}
   - component: {fileID: 57385665}
   - component: {fileID: 57385666}
   m_Layer: 10
@@ -268,7 +268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57385658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.43, y: -4.723, z: 0}
+  m_LocalPosition: {x: 1.993, y: -4.832, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 519420032}
@@ -344,7 +344,18 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 57385663}
   OnLandEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 57385665}
+        m_MethodName: OnLanding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -361,7 +372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 57385664}
-  runSpeed: 10
+  animator: {fileID: 57385666}
+  runSpeed: 15
   canMove: 1
 --- !u!95 &57385666
 Animator:
@@ -5859,6 +5871,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 656e2c1f52e716a4e98a5bea8750a284, type: 2}
   - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 5d82bd9d536facb46aae20b7d4c52207, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 22
     m_Data: {fileID: -7519462891683379420, guid: bae7ec7e0e3aa4c4e9b2d9ab781a62bf,
@@ -5872,6 +5886,8 @@ Tilemap:
   - m_RefCount: 17
     m_Data: {fileID: -5980274371520403043, guid: bae7ec7e0e3aa4c4e9b2d9ab781a62bf,
       type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 102
     m_Data:
