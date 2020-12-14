@@ -35,6 +35,7 @@ public class CharacterDialog : MonoBehaviour
         if (text_display.text == sentences[index])
         {
             next_button.SetActive(true);
+            Debug.Log("Next Active");
         }
         if (activated)
         {
@@ -53,10 +54,12 @@ public class CharacterDialog : MonoBehaviour
             text_display.text += letter;
             yield return new WaitForSeconds(typing_speed);
         }
+        Debug.Log("Dialog");
     }
 
     public void NextSentence()
     {
+        Debug.Log("Next");
         next_button.SetActive(false);
 
         if (index < sentences.Length - 1)

@@ -27,6 +27,7 @@ public class PointerBehavior : MonoBehaviour
     {
         if (cd.finished)
         {
+            Debug.Log("Entré");
             playerMovement.canMove = false;
             canvas.SetActive(true);
             cd.activated = true;

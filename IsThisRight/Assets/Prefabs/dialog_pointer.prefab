@@ -52,6 +52,7 @@ MonoBehaviour:
   head_image: {fileID: 0}
   next_button: {fileID: 0}
   activated: 1
+  finished: 0
 --- !u!1 &3841885639114458940
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,9 +65,10 @@ GameObject:
   - component: {fileID: 3841885639114458929}
   - component: {fileID: 3841885639114458930}
   - component: {fileID: 3841885639114458931}
-  - component: {fileID: 3841885639114458935}
+  - component: {fileID: 6630360358174039105}
+  - component: {fileID: 4942068595206195197}
   m_Layer: 0
-  m_Name: dialog_pointer_Felix
+  m_Name: dialog_pointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,6 +155,7 @@ MonoBehaviour:
   type: Dialog
   canvas: {fileID: 0}
   cd: {fileID: 3841885638606819340}
+  playerMovement: {fileID: 0}
 --- !u!95 &3841885639114458931
 Animator:
   serializedVersion: 3
@@ -172,16 +175,44 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &3841885639114458935
-BoxCollider:
+--- !u!61 &6630360358174039105
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3841885639114458940}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2647059, y: 0.2647059}
+    newSize: {x: 0.2647059, y: 0.2647059}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.26470587, y: 0.26470587, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.2647059, y: 0.2647059}
+  m_EdgeRadius: 0
+--- !u!114 &4942068595206195197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841885639114458940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9079ea6f1412347b4b95f0ae91647e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: 6f30c3baa300897419e28e0394f9ac83, type: 3}
+  open: {fileID: 3369532777081952749, guid: f8a237df00f7df746913726abb03c8a7, type: 3}
+  closed: {fileID: 8469131782817021313, guid: f8a237df00f7df746913726abb03c8a7, type: 3}

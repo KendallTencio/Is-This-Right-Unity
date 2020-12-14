@@ -13,22 +13,21 @@ public class Openable : Interactable
     }
     public Sprite open;
     public Sprite closed;
+    public AudioClip objectSound;
 
     private SpriteRenderer sr;
+    private AudioSource auSo;
     private bool isOpen;
 
-    public override void interact()
-    {
-        if (isOpen)
-            sr.sprite = closed;
-        else
-            sr.sprite = open;
-        isOpen = !isOpen;
-    }
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+
+        auSo = GetComponent<AudioSource>();
+        auSo.clip = objectSound;
+
         sr.sprite = closed;
+
 
     }
     
@@ -44,7 +43,17 @@ public class Openable : Interactable
 
     void OnMouseDown()
     {
+        auSo.Play();
         interact();
+    }
+
+    public override void interact()
+    {
+        if (isOpen)
+            sr.sprite = closed;
+        else
+            sr.sprite = open;
+        isOpen = !isOpen;
     }
 
 }
