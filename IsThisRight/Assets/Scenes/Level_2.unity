@@ -35491,6 +35491,8 @@ GameObject:
   m_Component:
   - component: {fileID: 732111931}
   - component: {fileID: 732111932}
+  - component: {fileID: 732111934}
+  - component: {fileID: 732111933}
   m_Layer: 0
   m_Name: gray_button_unpressed
   m_TagString: Untagged
@@ -35563,6 +35565,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &732111933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732111930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9079ea6f1412347b4b95f0ae91647e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: 64b367c499ac9c84a97dd1c2dc39d6a0, type: 3}
+  open: {fileID: -4293531408068065167, guid: ab3bc6f12db55b544afa56ad696b7074, type: 3}
+  closed: {fileID: -6947667568782662159, guid: ab3bc6f12db55b544afa56ad696b7074, type: 3}
+--- !u!61 &732111934
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732111930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7352941, y: 0.5294118}
+    newSize: {x: 0.7352941, y: 0.5294118}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7352941, y: 0.5294118}
+  m_EdgeRadius: 0
 --- !u!1 &1044860272
 GameObject:
   m_ObjectHideFlags: 0
@@ -37606,7 +37649,7 @@ GameObject:
   - component: {fileID: 2078908981}
   m_Layer: 10
   m_Name: Retani_n
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37623,6 +37666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60eaaee5af3c1141ab0e6ed37c2d65e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactIcon: {fileID: 0}
   controller: {fileID: 2078908978}
   animator: {fileID: 2078908981}
   runSpeed: 15
@@ -37726,6 +37770,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  interactIcon: {fileID: 0}
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []

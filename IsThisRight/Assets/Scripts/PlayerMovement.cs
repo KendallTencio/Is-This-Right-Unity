@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject interactIcon;
+    private Vector2 boxSize = new Vector2(0.1f, 1f);
     public CharacterController2D controller;
     public Animator animator;
     float horizontalMove = 0f;
