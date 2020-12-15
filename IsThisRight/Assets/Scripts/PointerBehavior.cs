@@ -6,20 +6,24 @@ using UnityEngine;
 
 public class PointerBehavior : MonoBehaviour
 {
-    public string type;
+    public string name;
     public GameObject canvas;
     public CharacterDialog cd;
     public PlayerMovement playerMovement;
 
     void Update()
     {
-        if (!cd.finished)
+        if (cd.this_dialog)
         {
-            playerMovement.canMove = false;
-        }
-        else
-        {
-            playerMovement.canMove = true;
+            if (!cd.finished)
+            {
+                playerMovement.canMove = false;
+            }
+            else
+            {
+                playerMovement.canMove = true;
+                cd.this_dialog = false;
+            }
         }
     }
 
@@ -27,10 +31,11 @@ public class PointerBehavior : MonoBehaviour
     {
         if (cd.finished)
         {
-            Debug.Log("Entré");
             playerMovement.canMove = false;
             canvas.SetActive(true);
             cd.activated = true;
+            cd.finished = false;
+            cd.this_dialog = true;
         }
     }
 }

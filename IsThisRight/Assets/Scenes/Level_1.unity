@@ -4332,7 +4332,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -10194,7 +10194,7 @@ MonoBehaviour:
   cursor: {fileID: 2800000, guid: 6f30c3baa300897419e28e0394f9ac83, type: 3}
   open: {fileID: 3369532777081952749, guid: f8a237df00f7df746913726abb03c8a7, type: 3}
   closed: {fileID: 8469131782817021313, guid: f8a237df00f7df746913726abb03c8a7, type: 3}
-  objectSound: {fileID: 8300000, guid: 3fa6766e1dd39d447bbf47ff18293d73, type: 3}
+  objectSound: {fileID: 8300000, guid: 7af51c4f99850664fba94d548f552bcb, type: 3}
 --- !u!61 &2033260167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11470,6 +11470,11 @@ PrefabInstance:
       propertyPath: text_display
       value: 
       objectReference: {fileID: 1706004303}
+    - target: {fileID: 1994650348839593902, guid: 8589c42cbaaf00144963247a5a25703c,
+        type: 3}
+      propertyPath: fade_out_time
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1994650349381823873, guid: 8589c42cbaaf00144963247a5a25703c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11701,6 +11706,6 @@ PrefabInstance:
         type: 3}
       propertyPath: objectSound
       value: 
-      objectReference: {fileID: 8300000, guid: 3fa6766e1dd39d447bbf47ff18293d73, type: 3}
+      objectReference: {fileID: 8300000, guid: 7af51c4f99850664fba94d548f552bcb, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2530cf6f48cbd1741a269a53b98c95d5, type: 3}

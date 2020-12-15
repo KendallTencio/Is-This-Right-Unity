@@ -16,6 +16,7 @@ public class CinematicScript : MonoBehaviour
 
     private int index;
     public float typing_speed;
+    public float fade_out_time;
 
     public bool finished;
 
@@ -40,7 +41,7 @@ public class CinematicScript : MonoBehaviour
             yield return null;
         }
         StartCoroutine(TypingDialog());
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(fade_out_time);
         for (float i = 1; i >= 0; i -= Time.deltaTime)
         {
             // set color with i as alpha
