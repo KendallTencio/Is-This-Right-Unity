@@ -23,11 +23,13 @@ public class CharacterDialog : MonoBehaviour
     public GameObject next_button;
     public bool activated;
     public bool finished;
+    public bool this_dialog;
 
     void Start()
     {
         activated = false;
         finished = true;
+        this_dialog = false;
     }
 
     void Update()
@@ -35,7 +37,6 @@ public class CharacterDialog : MonoBehaviour
         if (text_display.text == sentences[index])
         {
             next_button.SetActive(true);
-            Debug.Log("Next Active");
         }
         if (activated)
         {
@@ -54,29 +55,30 @@ public class CharacterDialog : MonoBehaviour
             text_display.text += letter;
             yield return new WaitForSeconds(typing_speed);
         }
-        Debug.Log("Dialog");
     }
 
     public void NextSentence()
     {
-        Debug.Log("Next");
-        next_button.SetActive(false);
-
-        if (index < sentences.Length - 1)
+        if (this_dialog)
         {
-            index++;
-            text_display.text = "";
-            StartCoroutine(TypingDialog());
-        }
-        else
-        {
-            text_display.text = "";
             next_button.SetActive(false);
-            dialog_canvas.SetActive(false);
-            activated = false;
-            finished = true;
-            index = 0;
+
+            if (index < sentences.Length - 1)
+            {
+                index++;
+                text_display.text = "";
+                StartCoroutine(TypingDialog());
+            }
+            else
+            {
+                text_display.text = "";
+                next_button.SetActive(false);
+                dialog_canvas.SetActive(false);
+                activated = false;
+                finished = true;
+              //  this_dialog = false;
+                index = 0;
+            }
         }
     }
-    
 }

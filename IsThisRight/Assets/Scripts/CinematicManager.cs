@@ -27,6 +27,5 @@ public class CinematicManager : MonoBehaviour
     {
         canvas_cinematics.SetActive(true);
         cs.fade();
-
     }
 }
