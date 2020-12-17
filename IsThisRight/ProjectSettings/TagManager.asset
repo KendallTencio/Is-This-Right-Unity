@@ -20,7 +20,7 @@ TagManager:
   - Button
   - Trap
   - NPC
-  - 
+  - Platform
   - 
   - 
   - 
@@ -41,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2836213253
     locked: 0

@@ -182,6 +182,12 @@ TextureImporter:
   - first:
       213: 895896105994596473
     second: black_q_button_pressed
+  - first:
+      213: 846010472778899471
+    second: Botones_0
+  - first:
+      213: 547216540781403935
+    second: Botones_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -706,6 +712,48 @@ TextureImporter:
       bones: []
       spriteID: 970b67103ccde6c00800000000000000
       internalID: 895896105994596473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 78
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f002f3aea02adbb00800000000000000
+      internalID: 846010472778899471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f5e786b8a189700800000000000000
+      internalID: 547216540781403935
       vertices: []
       indices: 
       edges: []
