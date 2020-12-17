@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject interactIcon;
     private Vector2 boxSize = new Vector2(0.1f, 1f);
     public CharacterController2D controller;
     public Animator animator;
@@ -14,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     bool crouch = false;
 
     public bool canMove = true;
+    public GameObject gameOver;
 
     void Update()
     {
@@ -39,6 +39,16 @@ public class PlayerMovement : MonoBehaviour
     }
     public void OnLanding(){
         animator.SetBool("isJumping", false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Trampa")
+        {
+            gameOver.SetActive(true);
+            canMove = false;
+
+        }
     }
     private void FixedUpdate()
     {

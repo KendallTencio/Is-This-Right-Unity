@@ -23,7 +23,6 @@ public class CharacterController2D : MonoBehaviour
 	[Space]
 
 	public UnityEvent OnLandEvent;
-	public GameObject interactIcon;
 
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
@@ -131,6 +130,7 @@ public class CharacterController2D : MonoBehaviour
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
+
 
 	}
 
